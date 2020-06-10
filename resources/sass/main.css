@@ -1,0 +1,651 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  color: #222222;
+  font-size: 62.5%;
+  font-family: "Acumin Pro SemiCondensed Regular", Helvetica, Arial, sans-serif;
+}
+
+body {
+  height: 100%;
+}
+
+header {
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid #dddddd;
+  background-color: rgba(255, 255, 255, 0.95);
+  font-family: "Acumin Pro ExtraCondensed Black", Helvetica, Arial, sans-serif;
+}
+
+#header {
+  margin: auto;
+}
+
+#header i, .top1, .top2, .top3 {
+  font-size: 2rem;
+}
+
+main {
+  margin: auto;
+  min-height: 100%;
+  overflow: hidden;
+  max-width: 150rem;
+}
+
+#banner {
+  width: 100%;
+}
+
+.title {
+  overflow: hidden;
+  font-size: 2.5rem;
+  padding: 1rem 3rem 0 3rem;
+}
+
+.title h1 {
+  font-size: 3rem;
+  display: inline-block;
+  font-family: "Acumin Pro ExtraCondensed Black", Helvetica, Arial, sans-serif;
+}
+
+.title h2 {
+  font-size: 3rem;
+  display: inline-block;
+  font-family: "Acumin Pro ExtraCondensed Medium", Helvetica, Arial, sans-serif;
+}
+
+.title h3 {
+  color: #888888;
+  font-size: 2.5rem;
+  margin: 0 0 1rem 0;
+  font-family: "Acumin Pro ExtraCondensed Regular", Helvetica, Arial, sans-serif;
+}
+
+.title h4 {
+  color: #888888;
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+  font-family: "Acumin Pro ExtraCondensed Regular", Helvetica, Arial, sans-serif;
+}
+
+.title .tprice {
+  float: right;
+  margin: -3rem 0;
+}
+
+#top-nav {
+  float: right;
+  margin-top: 0.5rem;
+  font-family: "Acumin Pro ExtraCondensed Medium", Helvetica, Arial, sans-serif;
+}
+
+#top-nav i {
+  font-size: 2rem;
+}
+
+#side-pic {
+  font-size: 2rem;
+  overflow: hidden;
+}
+
+#side-nav {
+  float: left;
+  width: 20rem;
+  font-size: 2.5rem;
+  padding: 5rem 2rem;
+  font-family: "Acumin Pro ExtraCondensed Medium", Helvetica, Arial, sans-serif;
+}
+
+#side-nav p {
+  margin: 1rem 0;
+}
+
+#product-description {
+  padding: 0 3rem;
+  overflow: hidden;
+  font-size: 1.5rem;
+  margin: 0 0 2.5rem 0;
+}
+
+.circle {
+  width: 4rem;
+  height: 4rem;
+  font-size: 2rem;
+  margin: 0.5rem 0;
+  line-height: 4rem;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  border: 2px solid #444444;
+  font-family: "Acumin Pro ExtraCondensed Black", Helvetica, Arial, sans-serif;
+}
+
+.circle:hover {
+  background-color: #eeeeee;
+}
+
+.size {
+  display: block;
+  margin: 1rem 0;
+}
+
+.cart {
+  width: 100%;
+  height: 5rem;
+  border-radius: 0.5rem;
+  background-color: #111111;
+  color: #eeeeee;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 5.5rem;
+  font-family: "Acumin Pro ExtraCondensed Black", Helvetica, Arial, sans-serif;
+}
+
+.cart:hover {
+  background-color: #222222;
+}
+
+#product-description h1 {
+  margin: 2rem 0 1rem 0;
+  font-size: 2.5rem;
+  font-family: "Acumin Pro ExtraCondensed Black", Helvetica, Arial, sans-serif;
+}
+
+#product-description p {
+  color: #444444;
+}
+
+#products {
+  padding: 0 1rem;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.product {
+  float: left;
+  margin: 1rem;
+  position: relative;
+  display: inline-block;
+}
+
+.product-desc {
+  bottom: 0;
+  width: 100%;
+  padding: 2.5rem;
+  font-size: 275%;
+  text-align: left;
+  position: absolute;
+}
+
+.bold-name {
+  display: inline-block;
+  font-family: "Acumin Pro ExtraCondensed Black", Helvetica, Arial, sans-serif;
+}
+
+.thin-name {
+  display: inline-block;
+  font-family: "Acumin Pro ExtraCondensed Medium", Helvetica, Arial, sans-serif;
+}
+
+.color-name {
+  color: #888888;
+  font-size: 75%;
+  font-family: "Acumin Pro ExtraCondensed Regular", Helvetica, Arial, sans-serif;
+}
+
+.price {
+  float: right;
+  margin: -3rem 0 0 0;
+  font-family: "Acumin Pro ExtraCondensed Black", Helvetica, Arial, sans-serif;
+}
+
+.sale {
+  color: #888888;
+  font-size: 75%;
+  margin: -2.5rem 1rem 0 0;
+  text-decoration: line-through;
+  font-family: "Acumin Pro ExtraCondensed Regular", Helvetica, Arial, sans-serif;
+}
+
+.product-heart {
+  right: 0;
+  padding: 2.5rem;
+  font-size: 2rem;
+  position: absolute;
+}
+
+.product-heart-big {
+  float: right;
+  margin: 1rem 0;
+}
+
+#items {
+  padding: 1rem 2.5rem 0 2.5rem;
+}
+
+.item {
+  display: flow-root;
+}
+
+.item-desc {
+  float: left;
+}
+
+.item-desc h1 {
+  font-size: 3rem;
+  display: inline-block;
+  font-family: "Acumin Pro ExtraCondensed Black", Helvetica, Arial, sans-serif;
+}
+
+.item-desc h2 {
+  font-size: 3rem;
+  display: inline-block;
+  font-family: "Acumin Pro ExtraCondensed Medium", Helvetica, Arial, sans-serif;
+}
+
+.item-desc h3 {
+  color: #888888;
+  font-size: 2.5rem;
+  margin: 0 0 1rem 0;
+  font-family: "Acumin Pro ExtraCondensed Regular", Helvetica, Arial, sans-serif;
+}
+
+.item-icon {
+  float: right;
+  font-size: 2rem;
+}
+
+.item-price {
+  float: right;
+  text-align: right;
+  display: block !important;
+  margin-top: -4.5rem;
+}
+
+.black {
+  color: #222222 !important;
+}
+
+#summary {
+  padding: 3rem;
+  font-size: 2.2rem;
+  border-radius: 0.2rem;
+  background-color: #f5f5f5;
+  font-family: "Acumin Pro ExtraCondensed Regular", Helvetica, Arial, sans-serif;
+}
+
+#summary h1 {
+  font-size: 3rem;
+  display: inline-block;
+  font-family: "Acumin Pro ExtraCondensed Black", Helvetica, Arial, sans-serif;
+}
+
+#summary h2 {
+  float: right;
+  font-size: 2.5rem;
+  margin-top: 0.5rem;
+  display: inline-block;
+  font-family: "Acumin Pro ExtraCondensed Medium", Helvetica, Arial, sans-serif;
+}
+
+#summary p {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.number {
+  float: right;
+}
+
+.checkout {
+  margin-top: 2rem;
+}
+
+.total {
+  font-size: 2.5rem !important;
+  font-family: "Acumin Pro ExtraCondensed Medium", Helvetica, Arial, sans-serif !important;
+}
+
+.wrapper {
+  overflow: hidden;
+  padding: 1rem 1.5rem 2.5rem 1.5rem;
+}
+
+.section {
+  margin: 0 1rem;
+}
+
+.sections {
+  border-radius: 0.2rem;
+  background-color: #f5f5f5;
+  padding: 3rem 3rem 1rem 3rem;
+}
+
+.payment {
+  margin-top: 2rem;
+}
+
+.section h1 {
+  font-size: 3rem;
+  font-family: "Acumin Pro ExtraCondensed Black", Helvetica, Arial, sans-serif;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  font-family: "Acumin Pro ExtraCondensed Medium", Helvetica, Arial, sans-serif;
+}
+
+.address h1 {
+  margin-bottom: 0.5rem;
+}
+
+.shipping-payment h1 {
+  margin-bottom: 0.5rem;
+}
+
+.final-summary h1 {
+  display: inline-block;
+}
+
+.final-summary h2 {
+  float: right;
+  margin-top: 0.5rem;
+  display: inline-block;
+}
+
+.final-summary p {
+  margin-top: 1rem;
+  font-size: 2.2rem;
+  display: inline-block;
+  font-family: "Acumin Pro ExtraCondensed Regular", Helvetica, Arial, sans-serif;
+}
+
+.address {
+  float: left;
+}
+
+.shipping-payment {
+  background-color: #ffffff;
+}
+
+.final-summary {
+  padding-bottom: 3rem;
+}
+
+.text-login {
+  font-family: "Acumin Pro ExtraCondensed Black", Helvetica, Arial, sans-serif;
+}
+
+.label-bold {
+  float: right;
+  font-family: "Acumin Pro ExtraCondensed Black", Helvetica, Arial, sans-serif;
+}
+
+.label-thin {
+  font-family: "Acumin Pro ExtraCondensed Light", Helvetica, Arial, sans-serif;
+}
+
+footer {
+  width: 100%;
+  background: #111111;
+  clear: both;
+  position: relative;
+  font-family: "Acumin Pro ExtraCondensed Black", Helvetica, Arial, sans-serif;
+}
+
+#footer {
+  margin: auto;
+  font-size: 2rem;
+  max-width: 100rem;
+}
+
+#footer a {
+  color: #eeeeee;
+  margin: 0 1.4rem;
+}
+
+a {
+  color: #222222;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #444444;
+}
+
+a:visited {
+  color: #222222;
+}
+
+a:active {
+  color: #666666;
+}
+
+img {
+  min-width: 100%;
+  max-width: 100%;
+  user-drag: none;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+}
+
+.center {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.top0 {
+  display: none;
+}
+
+.product-heart p:hover .fa-heart:before {
+  font-weight: 900;
+}
+
+.product-heart-big p:hover .fa-heart:before {
+  font-weight: 900;
+}
+
+*:focus {
+  outline: none;
+}
+
+#login-window {
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.close {
+  font-size: 2.5rem;
+  float: right;
+  padding: 1rem;
+  color: #444444;
+}
+
+#login {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#login .logo {
+  width: 75%;
+  margin: auto;
+}
+
+#login h1 {
+  font-size: 3rem;
+  margin: 1rem 0 -1rem 0;
+  font-family: "Acumin Pro ExtraCondensed Black", Helvetica, Arial, sans-serif;
+}
+
+button {
+  width: 100%;
+  height: 5rem;
+  border-radius: 0.2rem;
+  background-color: #111111;
+  color: #eeeeee;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 5.5rem;
+  font-family: "Acumin Pro ExtraCondensed Black", Helvetica, Arial, sans-serif;
+  border: 0;
+}
+
+.login {
+  margin: 0 0 2rem 0;
+}
+
+#login a {
+  font-size: 1.5rem;
+}
+
+.textfield {
+  position: relative;
+  margin: 2rem 0;
+}
+
+.textfield input {
+  width: 100%;
+  color: #222222;
+  font-size: 2.5rem;
+  border: 1px solid #444444;
+  padding: 1rem 1.5rem 0.7rem 1.5rem;
+  font-family: "Acumin Pro ExtraCondensed Regular", Helvetica, Arial, sans-serif;
+}
+
+.textfield label {
+  top: 1.5rem;
+  left: 1.5rem;
+  color: #444444;
+  font-size: 2rem;
+  position: absolute;
+  pointer-events: none;
+  transition: 0.2s ease all;
+  font-family: "Acumin Pro ExtraCondensed Regular", Helvetica, Arial, sans-serif;
+}
+
+.textfield input:focus ~ label, .textfield input:valid ~ label {
+  top: -1rem;
+  color: #222222;
+  padding: 0.2rem;
+  font-size: 1.5rem;
+  background-color: #ffffff;
+}
+
+.address input:focus ~ label, .address input:valid ~ label {
+  padding: 0 0.2rem;
+  background-image: linear-gradient(#f5f5f5 60%, #ffffff 40%);
+}
+
+.bar {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.bar:before, .bar:after {
+  width: 0;
+  bottom: 0;
+  content: "";
+  height: 0.2rem;
+  position: absolute;
+  background: #000000;
+  transition: 0.2s ease all;
+}
+
+.bar:before {
+  left: 50%;
+}
+
+.bar:after {
+  right: 50%;
+}
+
+.textfield input:focus ~ .bar:before, .textfield input:focus ~ .bar:after {
+  width: 50%;
+}
+
+.radiobutton {
+  display: block;
+  margin: 2rem 0;
+  cursor: pointer;
+  font-size: 2.5rem;
+  user-select: none;
+  position: relative;
+  border: 1px solid #444444;
+  background-color: #ffffff;
+  padding: 1rem 1.5rem 0.7rem 5rem;
+  font-family: "Acumin Pro ExtraCondensed Regular", Helvetica, Arial, sans-serif;
+}
+
+.radiobutton input {
+  opacity: 0;
+  cursor: pointer;
+  position: absolute;
+}
+
+.checkmark {
+  position: absolute;
+  top: calc((100% - 2rem) / 2);
+  left: 1.5rem;
+  height: 2rem;
+  width: 2rem;
+  background-color: #dddddd;
+  border-radius: 50%;
+  border: 1px solid #444444;
+}
+
+.radiobutton:hover input ~ .checkmark {
+  background-color: #cccccc;
+}
+
+.radiobutton input:checked ~ .checkmark {
+  background-image: radial-gradient(#ffffff 38%, #111111 41%);
+}
+
+.checkmark:after {
+  content: "";
+  display: none;
+  position: absolute;
+}
+
+.radiobutton input:checked ~ .checkmark:after {
+  display: none;
+}
+
+.radiobutton .checkmark:after {
+  top: 0.5rem;
+  left: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: white;
+}
+
+/*# sourceMappingURL=main.css.map */

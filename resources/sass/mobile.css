@@ -1,0 +1,191 @@
+@media (max-width: 999px) {
+  #header {
+    height: 5rem;
+    padding: 0 1.5rem;
+  }
+
+  #header .logo {
+    float: left;
+    width: 20rem;
+  }
+
+  #header a {
+    margin: 0 1rem;
+  }
+
+  #brands, .top0, .top1, .top2, .top3 {
+    display: none;
+  }
+
+  .top0 {
+    display: block;
+  }
+
+  main {
+    padding: 6rem 0 15rem 0;
+  }
+
+  #banner {
+    margin-bottom: -5.5rem;
+  }
+
+  #side-nav {
+    display: none;
+  }
+
+  #side-pic {
+    width: 100%;
+    padding: 1.5rem 2rem 0 2rem;
+  }
+
+  .product {
+    width: calc((100% - 4rem) / 2);
+  }
+
+  #login-window {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  #login {
+    width: 40rem;
+    height: 40rem;
+    margin: 10rem auto;
+    border-radius: 0.2rem;
+    padding: 4rem 5rem;
+  }
+
+  .close {
+    display: none !important;
+  }
+
+  .item {
+    margin-bottom: 2.5rem;
+  }
+
+  .item img {
+    float: left;
+    width: 30rem;
+    min-width: 0;
+  }
+
+  .item-desc {
+    width: calc(100% - 30rem);
+    padding: 0 0 0 2.5rem;
+  }
+
+  #summary {
+    margin: 1rem 2.5rem 1.5rem 2.5rem;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .address {
+    margin-bottom: 2rem;
+    width: calc(100% - 2rem);
+    order: 1;
+  }
+
+  .shipping-payment {
+    margin: 0 0 2rem 1rem;
+    clear: both;
+    order: 2;
+  }
+
+  .final-summary {
+    margin-left: 1rem;
+    clear: both;
+    order: 3;
+  }
+
+  footer {
+    height: 15rem;
+    margin-top: -15rem;
+  }
+
+  #footer {
+    height: 15rem;
+  }
+
+  #footer .logo {
+    top: 30%;
+    width: 20rem;
+    margin: auto;
+  }
+
+  #footer .logo a {
+    margin: 0;
+  }
+
+  #footer .foot {
+    top: 20%;
+    margin: 1.4rem 0;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  #header .logo {
+    width: 4rem;
+  }
+}
+@media (max-width: 750px) {
+  main {
+    padding: 6rem 0 20rem 0;
+  }
+
+  .product {
+    width: calc(100% - 2rem) !important;
+  }
+
+  #login-window {
+    background-color: #ffffff;
+  }
+
+  #login {
+    max-width: 40rem;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 4rem 2.5rem;
+  }
+
+  .close {
+    display: block !important;
+  }
+
+  .item {
+    margin-bottom: 1.5rem;
+  }
+
+  .item img {
+    width: 100%;
+  }
+
+  footer {
+    height: 20rem;
+    margin-top: -20rem;
+  }
+
+  .item-desc {
+    padding: 2rem 0 0 0;
+    width: 100%;
+  }
+
+  #footer {
+    height: 20rem;
+    width: 32rem;
+  }
+
+  #footer .logo {
+    top: 23%;
+  }
+
+  #footer .foot {
+    top: 10%;
+    margin: 3rem 0;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */

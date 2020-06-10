@@ -1,0 +1,160 @@
+@media (min-width: 1000px) {
+  #header {
+    height: 6rem;
+    max-width: 150rem;
+    padding: 0 2.5rem;
+  }
+
+  #header .logo {
+    margin: auto;
+    width: 25rem;
+  }
+
+  #header a {
+    margin: 0 1.5rem;
+  }
+
+  #brands {
+    height: 2.5rem;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.2s ease-out;
+  }
+
+  #brands a {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin: 0 1.5rem;
+  }
+
+  main {
+    padding: 10rem 0;
+  }
+
+  #banner {
+    margin-bottom: -9rem;
+  }
+
+  #side-pic {
+    float: left;
+    width: calc(100% - 40rem);
+    padding: 1.5rem 1rem 1.7rem 2rem;
+  }
+
+  .product {
+    width: calc((100% - 6rem) / 3);
+  }
+
+  #login-window {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  #login {
+    width: 40rem;
+    height: 40rem;
+    margin: 10rem auto;
+    border-radius: 0.2rem;
+    padding: 4rem 5rem;
+  }
+
+  .close {
+    display: none !important;
+  }
+
+  #items {
+    width: 72.5%;
+  }
+
+  .item {
+    margin-bottom: 2.5rem;
+  }
+
+  .item img {
+    float: left;
+    width: 35rem;
+    min-width: 0;
+  }
+
+  .item-desc {
+    width: calc(100% - 35rem);
+    padding: 0 0 0 2.5rem;
+  }
+
+  #summary {
+    width: 25%;
+    float: right;
+    margin: 1rem 2.5rem 2.5rem 0;
+  }
+
+  .section {
+    width: calc((100% - 6rem) / 3);
+  }
+
+  .shipping-payment {
+    margin: auto;
+  }
+
+  .final-summary {
+    float: right;
+  }
+
+  footer {
+    height: 10rem;
+    margin-top: -10rem;
+  }
+
+  #footer {
+    height: 10rem;
+  }
+
+  #footer .logo {
+    float: left;
+    width: 200px;
+    margin: 0 3.5rem 0 0;
+  }
+
+  #footer .foot {
+    float: left;
+    margin: 0 1.2rem 0 0;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1250px) {
+  .top1 {
+    display: none;
+  }
+
+  .product {
+    width: calc((100% - 4rem) / 2) !important;
+  }
+
+  .item img {
+    width: 25rem;
+  }
+
+  .item-desc {
+    width: calc(100% - 25rem);
+  }
+
+  #items {
+    width: 67.5%;
+  }
+
+  #summary {
+    width: 30%;
+  }
+
+  .section {
+    width: calc((100% - 4rem) / 2);
+  }
+
+  .address {
+    margin-bottom: 2rem;
+  }
+
+  .shipping-payment {
+    margin-left: 1rem;
+    clear: both;
+  }
+}
+
+/*# sourceMappingURL=desktop.css.map */
